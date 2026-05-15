@@ -1,0 +1,20 @@
+fastapi
+uvicorn[standard]
+
+sqlalchemy
+psycopg2-binary
+alembic
+
+httpx                          # ← NO requests. httpx es async y el profesor lo exige.
+
+python-dotenv
+pydantic[email]
+pydantic-settings
+
+python-jose[cryptography]
+
+pytest
+pytest-asyncio
+
+black
+ruff
